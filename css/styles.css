@@ -1,0 +1,166 @@
+:root {
+  --main-color: #434455;
+  --highest-color: #2e2f42;
+  --second-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --effect-main-color: #f4f4fd;
+  --effect-second-color: #404bbf;
+  --main-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: var(--second-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.logo-span {
+  color: var(--highest-color);
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--highest-color);
+}
+
+.header-contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--effect-second-color);
+}
+
+.banner {
+  background: var(--highest-color);
+}
+
+.banner-caption {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+.banner-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--second-color);
+  background: var(--logo-color);
+}
+
+.benefits-subtitle,
+.about-us-subtitle,
+.activities-title,
+.about-us-title,
+.examples-subtitle {
+  color: var(--highest-color);
+}
+
+.about-us {
+  background: var(--effect-main-color);
+}
+
+.about-us-text {
+  text-align: center;
+}
+
+.about-us-item {
+  background-color: var(--second-color);
+}
+
+.footer {
+  background: var(--highest-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.footer-text,
+.logo-span-footer {
+  color: var(--effect-main-color);
+}
+
+.portfolio-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background: var(--effect-main-color);
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  color: var(--second-color);
+  background: var(--effect-second-color);
+}
