@@ -103,8 +103,6 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -129,6 +127,8 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -149,6 +149,8 @@ img {
 .header-contacts-menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
