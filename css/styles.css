@@ -97,14 +97,14 @@ img {
 
 .header-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  align-items: center;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
