@@ -38,6 +38,10 @@ img {
   height: auto;
 }
 
+a {
+  display: block;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -127,8 +131,6 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -137,6 +139,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--highest-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contacts-link {
