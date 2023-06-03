@@ -34,6 +34,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -42,10 +44,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.section {
-  padding-top: 120px;
 }
 
 .list {
@@ -71,7 +69,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .text {
@@ -79,7 +76,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  margin-bottom: 32px;
 }
 
 .visually-hidden {
@@ -96,18 +92,19 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--main-border-color);
 }
 
 .header-nav {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
@@ -163,11 +160,11 @@ img {
 
 .banner {
   background: var(--highest-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .banner-container {
-  padding-top: 68px;
-  padding-bottom: 188px;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -195,6 +192,14 @@ img {
   background: var(--logo-color);
   min-width: 169px;
   min-height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-list {
@@ -214,14 +219,17 @@ img {
   color: var(--highest-color);
 }
 
-.activities-container {
+.activities {
   padding-bottom: 120px;
+}
+
+.activities-title {
+  margin-bottom: 72px;
 }
 
 .activities-list {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
 }
 
 .activities-item {
@@ -231,6 +239,7 @@ img {
 .about-us {
   max-width: 100%;
   background: var(--effect-main-color);
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -247,6 +256,10 @@ img {
   text-align: center;
 }
 
+.about-us-subtitle {
+  text-align: center;
+}
+
 .about-us-item {
   background-color: var(--second-color);
   width: calc((100% - 3 * 24px) / 4);
@@ -254,6 +267,11 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.person-container {
+  padding: 32px 16px;
 }
 
 .portfolio-btn {
@@ -266,6 +284,8 @@ img {
   color: var(--logo-color);
   background: var(--effect-main-color);
   padding: 12px 24px;
+  border: 1px solid var(--main-border-color);
+  border-radius: 4px;
 }
 
 .btn:hover,
@@ -273,18 +293,25 @@ img {
   cursor: pointer;
   color: var(--second-color);
   background: var(--effect-second-color);
+  border: 1px solid transparent;
 }
 
 .btn-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
-  padding-top: 96px;
+  margin-bottom: 72px;
 }
 
-.examples-container {
+.examples {
+  padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.examples-info-container {
+  padding: 32px 16px;
+  border: 1px solid var(--main-border-color);
+  border-top: none;
 }
 
 .examples-list {
@@ -297,19 +324,10 @@ img {
 
 .examples-item {
   width: calc((100% - 2 * 24px) / 3);
-  border: 1px solid var(--main-border-color);
-}
-
-.examples-subtitle,
-.examples-text {
-  padding-left: 16px;
 }
 
 .footer {
   background: var(--highest-color);
-}
-
-.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -322,10 +340,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
-  margin-top: 16px;
   max-width: 264px;
 }
 
