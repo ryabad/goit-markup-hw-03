@@ -148,13 +148,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  padding: 24px 0;
 }
 
 .header-contacts-menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
@@ -171,11 +170,7 @@ a {
 }
 
 .banner-container {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  flex-direction: column;
-  gap: 48px;
+  text-align: center;
 }
 
 .banner-caption {
@@ -186,6 +181,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--second-color);
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .banner-btn {
